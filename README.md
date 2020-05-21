@@ -15,7 +15,6 @@ $ yarn start
 
 ### Todos
 
- - Add Story book
  - Add Story book options
  - Add snapshot testing
  - Deployment
