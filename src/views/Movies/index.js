@@ -15,7 +15,6 @@ class MoviesLoader extends Component {
       const url = `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`;
       this.setState({ loading: true });
       const rsp = await fetch(url);
-
       if (rsp.ok) {
         const data = await rsp.json();
         this.setState({ movies: data.results });

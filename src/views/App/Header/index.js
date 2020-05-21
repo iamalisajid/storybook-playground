@@ -9,7 +9,7 @@ class Header extends Component {
       <header>
         <AppBar position="static" color="default">
           <Toolbar>
-            <Typography variant="title" color="inherit">
+            <Typography variant="caption" color="inherit">
               Top rated movies
             </Typography>
           </Toolbar>
